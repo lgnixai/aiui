@@ -1,4 +1,4 @@
-import { components, slots } from '@dtinsight/molecule';
+import { components, slots } from 'aiui';
 
 import './menuBar.css';
 

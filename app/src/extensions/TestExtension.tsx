@@ -1,4 +1,4 @@
-import { FileTypes, IContributeType, IExtension, IMoleculeContext, tree } from '@dtinsight/molecule';
+import { FileTypes, IContributeType, IExtension, IMoleculeContext, tree } from 'aiui';
 import { debounce } from 'lodash-es';
 
 import TestPane from '../components/testPane';
@@ -18,7 +18,7 @@ export const TestExtension: IExtension = {
             name: 'testPane',
             alignment: 'top',
             sortIndex: 2,
-            icon: 'beaker',
+            icon: 'book',
         });
         molecule.sidebar.add({
             id: 'testPane',

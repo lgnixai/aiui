@@ -1,6 +1,6 @@
 {
-    "name": "@dtinsight/molecule",
-    "version": "2.0.0-alpha.3",
+    "name": "aiui",
+    "version": "1.0.0",
     "description": "A Web IDE UI Framework built with React.js, inspired by VSCode.",
     "module": "./esm/index.js",
     "typings": "./esm/index.d.ts",
@@ -28,12 +28,12 @@
         "react": ">=16.13.1",
         "react-dom": ">=16.13.1"
     },
-    "repository": "https://github.com/DTStack/molecule",
+    "repository": "https://github.com/lgnixai/aiui",
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
     "devDependencies": {
-        "@dtinsight/molecule": "./",
+        "aiui": "./",
         "@types/lodash-es": "^4.17.8",
         "@types/node": "^20.4.7",
         "@types/react": "^18.2.18",

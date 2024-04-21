@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { components, type IEditorTab, type IMoleculeContext } from '@dtinsight/molecule';
+import { components, type IEditorTab, type IMoleculeContext } from 'aiui';
 
 import { getWorkspace } from '../utils';
 import './testPane.css';

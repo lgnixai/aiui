@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { create } from '@dtinsight/molecule';
+import { create } from 'aiui';
 
 import { TestExtension } from './extensions/TestExtension';
 

@@ -1,4 +1,4 @@
-import { tree } from '@dtinsight/molecule';
+import { tree } from 'aiui';
 
 export function getWorkspace(): Promise<tree.TreeNodeModel<any>> {
     return fetch('/api/getWorkspace')
